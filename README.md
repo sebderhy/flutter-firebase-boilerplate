@@ -1,16 +1,17 @@
-# flutter-firebase-boilerplate app
+# flutter-firebase-boilerplate
 
-Boilerplate App written with Flutter framework and which integrates with Firebase backend
+A very basic voting App written with Flutter framework and which integrates with Firebase backend.
+Can be used for every App project requiring a backend.
 
-## Getting Started
+Based on tutorial from https://codelabs.developers.google.com/codelabs/flutter-firebase/
 
-This project is a starting point for a Flutter application.
+NOTE: the code source doesn't contain the android-manifest file, because this file
+was tied to my specific database. In order to get one, you need to create a Firebase project, and
+add connect a new Android app to it (as explained in the tutorial above).
 
-A few resources to get you started if this is your first Flutter project:
+## Other useful Flutter ressources
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
 - [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
+- [online documentation](https://flutter.dev/docs), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
